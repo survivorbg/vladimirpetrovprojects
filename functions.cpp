@@ -24,3 +24,14 @@ int f2_max(int i1, int i2)
     }
     
 }
+
+void f3_double_max (double i1, double i2, double* o1){
+        if (i1 > i2)
+    {
+        *o1 = i1;
+    }
+    else
+    {
+        *o1 = i2;
+    }
+}
